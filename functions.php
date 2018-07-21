@@ -79,6 +79,37 @@ if ( ! function_exists( 'dyna_setup' ) ) :
 			'flex-width'  => true,
 			'flex-height' => true,
 		) );
+
+		// Adding support for core block visual styles.
+		add_theme_support( 'wp-block-styles' );
+
+		// Add support for full and wide align images.
+		add_theme_support( 'align-wide' );
+
+		// Add support for custom color scheme.
+		add_theme_support( 'editor-color-palette', array(
+			array(
+				'name'  => 'strong blue',
+				'slug'  => 'strong-blue',
+				'color' => '#0073aa',
+			),
+			array(
+				'name'  => 'lighter blue',
+				'slug'  => 'lighter-blue',
+				'color' => '#229fd8',
+			),
+			array(
+				'name'  => 'very light gray',
+				'slug'  => 'very-light-gray',
+				'color' => '#eee',
+			),
+			array(
+				'name'  => 'very dark gray',
+				'slug'  => 'very-dark-gray',
+				'color' => '#444',
+			)
+		) );
+
 	}
 endif;
 add_action( 'after_setup_theme', 'dyna_setup' );
@@ -97,6 +128,35 @@ function dyna_content_width() {
 	$GLOBALS['content_width'] = apply_filters( 'dyna_content_width', 640 );
 }
 add_action( 'after_setup_theme', 'dyna_content_width', 0 );
+
+/**
+ * Register Google Fonts
+ */
+function gutenbergtheme_fonts_url() {
+	$fonts_url = '';
+
+	/*
+	 *Translators: If there are characters in your language that are not
+	 * supported by Noto Serif, translate this to 'off'. Do not translate
+	 * into your own language.
+	 */
+	$notoserif = esc_html_x( 'on', 'Noto Serif font: on or off', 'gutenbergtheme' );
+
+	if ( 'off' !== $notoserif ) {
+		$font_families = array();
+		$font_families[] = 'Noto Serif:400,400italic,700,700italic';
+
+		$query_args = array(
+			'family' => urlencode( implode( '|', $font_families ) ),
+			'subset' => urlencode( 'latin,latin-ext' ),
+		);
+
+		$fonts_url = add_query_arg( $query_args, 'https://fonts.googleapis.com/css' );
+	}
+
+	return $fonts_url;
+
+}
 
 /**
  * Register widget area.
@@ -120,10 +180,13 @@ add_action( 'widgets_init', 'dyna_widgets_init' );
  * Enqueue scripts and styles.
  */
 function dyna_scripts() {
+
     wp_enqueue_style( 'foundation-style', get_template_directory_uri() . '/css/foundation.min.css' );
     wp_enqueue_style( 'dyna-style', get_stylesheet_uri() );
+    wp_enqueue_style( 'themeblocks-style', get_template_directory_uri() . '/css/blocks.css' );
+    wp_enqueue_style( 'theme-fonts', gutenbergtheme_fonts_url() );
     wp_enqueue_script( 'dyna-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20180720', true );
-	wp_enqueue_script( 'dyna-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20180720', true );
+	wp_enqueue_script( 'skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20180720', true );
     wp_enqueue_script( 'foundation', get_template_directory_uri() . '/js/foundation.min.js', array(), '20180720', true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
