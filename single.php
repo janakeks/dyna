@@ -32,5 +32,5 @@ get_header(); ?>
 	</main><!-- #primary -->
 
 <?php
-get_sidebar();
+// no get_sidebar();
 get_footer();

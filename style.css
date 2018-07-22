@@ -36,13 +36,13 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 # Normalize
 --------------------------------------------------------------*/
 html {
-  font-family: sans-serif;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
+	font-family: sans-serif;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
 }
 
 body {
-  margin: 0;
+	margin: 0;
 }
 
 article,
@@ -57,38 +57,38 @@ menu,
 nav,
 section,
 summary {
-  display: block;
+	display: block;
 }
 
 audio,
 canvas,
 progress,
 video {
-  display: inline-block;
-  vertical-align: baseline;
+	display: inline-block;
+	vertical-align: baseline;
 }
 
 audio:not([controls]) {
-  display: none;
-  height: 0;
+	display: none;
+	height: 0;
 }
 
 [hidden],
 template {
-  display: none;
+	display: none;
 }
 
 a {
-  background-color: transparent;
+	background-color: transparent;
 }
 
 a:active,
 a:hover {
-  outline: 0;
+	outline: 0;
 }
 
 abbr[title] {
-  border-bottom: 1px dotted;
+	border-bottom: 1px dotted;
 }
 
 b,
@@ -807,11 +807,14 @@ a:hover, a:active {
 }
 
 .entry-header,
+.page-header,
 .entry-footer,
 .site-info,
 .post-navigation,
 .page-navigation,
-.comments-area {
+.comments-area,
+.not-found .page-content,
+.search .entry-summary {
 	margin: 1.5em auto;
 	padding-left: 14px;
 	padding-right: 14px;
@@ -831,11 +834,14 @@ a:hover, a:active {
 
 @media screen and (min-width: 664px) {
 	.entry-header,
+	.page-header,
 	.entry-footer,
 	.site-info,
 	.post-navigation,
 	.page-navigation,
-	.comments-area {
+	.comments-area,
+	.not-found .page-content,
+	.search .entry-summary {
 		padding-left: 0;
 		padding-right: 0;
 	}
