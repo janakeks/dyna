@@ -1,0 +1,181 @@
+# Copyright (C) 2017 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Dyna 1.0.0\n"
+"Report-Msgid-Bugs-To: https://dyna.press\n"
+"POT-Creation-Date: 2016-12-23 16:00+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-07-24 04:27+0800\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.0.9\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ms_MY\n"
+
+#: 404.php:17
+#, fuzzy
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oops! Halaman itu tidak dapat ditemui."
+
+#: 404.php:21
+#, fuzzy
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+"Ia kelihatan seperti tiada apa yang terdapat di lokasi ini. Mungkin cuba "
+"salah satu pautan di bawah atau carian?"
+
+#: 404.php:30
+#, fuzzy
+msgid "Most Used Categories"
+msgstr "Kategori Paling Digunakan"
+
+#. translators: %1$s: smiley
+#: 404.php:47
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Cuba cari dalam arkib bulanan. %1$s"
+
+#. translators: 1: title.
+#: comments.php:34
+#, fuzzy
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "Satu fikir \"%1$s\""
+
+#: comments.php:67
+msgid "Comments are closed."
+msgstr "Komen ditutup."
+
+#: footer.php:25
+#, fuzzy
+msgid "Created with"
+msgstr "Dicipta dengan"
+
+#: footer.php:25
+msgid "and"
+msgstr "dan"
+
+#: functions.php:47
+msgid "Primary"
+msgstr "Rendah"
+
+#: functions.php:105
+msgid "Sidebar"
+msgstr "Jendela Tepi"
+
+#: functions.php:107
+#, fuzzy
+msgid "Add widgets here."
+msgstr "Tambah widget di sini."
+
+#: header.php:24
+#, fuzzy
+msgid "Skip to content"
+msgstr "Langkau ke kandungan"
+
+#: header.php:45
+msgid "Primary Menu"
+msgstr "Menu Primer"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:52
+msgid ", "
+msgstr ", "
+
+#. translators: 1: list of categories.
+#: inc/template-tags.php:55
+msgid "Posted in %1$s"
+msgstr "Ditulis dalam %1$s"
+
+#. translators: 1: list of tags.
+#: inc/template-tags.php:62
+msgid "Tagged %1$s"
+msgstr "Tag %1$s"
+
+#. translators: %s: post title
+#: inc/template-tags.php:72
+#, fuzzy
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+"Tinggalkan satu komen<span class=\"screen-reader-text\"> pada %s</span>"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:89 template-parts/content-page.php:35
+#, fuzzy
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Edit <span class=\"screen-reader-text\">%s</span>"
+
+#. translators: %s: search query.
+#: search.php:21
+msgid "Search Results for: %s"
+msgstr "Hasil Carian bagi: %s"
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Tiada Apa-Apa Dijumpai"
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:25
+#, fuzzy
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Bersedia untuk menerbitkan posting pertama anda? <a href=\"%1$s\">Bermula di "
+"sini</a>."
+
+#: template-parts/content-none.php:38
+#, fuzzy
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Maaf, tetapi tiada yang sepadan dengan kriteria carian anda. Sila cuba "
+"semula dengan kata kunci berlainan."
+
+#: template-parts/content-none.php:44
+#, fuzzy
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Ia seolah-olah kami tidak dapat mencari apa yang anda inginkan. Mungkin "
+"mencari boleh membantu."
+
+#: template-parts/content-page.php:22 template-parts/content.php:45
+msgid "Pages:"
+msgstr "Halaman:"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content.php:34
+#, fuzzy
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Teruskan membaca<span class=\"screen-reader-text\"> \"%s\"</span>"
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:40
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+
+#. translators: %s: post date.
+#: inc/template-tags.php:29
+#, fuzzy
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Dikirim pada %s"
+
+#. translators: %s: post author.
+#: inc/template-tags.php:35
+msgctxt "post author"
+msgid "by %s"
+msgstr "oleh %s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:59
+msgctxt "list item separator"
+msgid ", "
+msgstr ", "
