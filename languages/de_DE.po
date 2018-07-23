@@ -1,18 +1,11 @@
-# Copyright (C) 2017 Automattic
-# This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: _s 1.0.0\n"
-"Report-Msgid-Bugs-To: https://dyna.press\n"
-"POT-Creation-Date: 2016-12-23 16:00+0100\n"
-"PO-Revision-Date: 2018-07-24 04:00+0800\n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.9\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: Dyna Starter Theme\n"
+"Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: 404.php:17
@@ -20,12 +13,8 @@ msgid "Oops! That page can&rsquo;t be found."
 msgstr "Uups! Diese Seite wurde leider nicht gefunden."
 
 #: 404.php:21
-msgid ""
-"It looks like nothing was found at this location. Maybe try one of the links "
-"below or a search?"
-msgstr ""
-"Hier wurde leider kein Inhalt gefunden. Versuche einen der unten "
-"aufgeführten Links oder benutze unser Suchfeld."
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Hier wurde leider kein Inhalt gefunden. Wähle einen der unten aufgeführten Links oder benutze unsere Suche."
 
 #: 404.php:30
 msgid "Most Used Categories"
@@ -44,14 +33,6 @@ msgstr "Eine Antwort auf &ldquo;%1$s&rdquo;"
 #: comments.php:67
 msgid "Comments are closed."
 msgstr "Kommentare sind geschlossen."
-
-#: footer.php:25
-msgid "Created with"
-msgstr "Erstellt mit"
-
-#: footer.php:25
-msgid "and"
-msgstr "und"
 
 #: functions.php:47
 msgid "Primary"
@@ -91,8 +72,7 @@ msgstr "Tagged %1$s"
 #. translators: %s: post title
 #: inc/template-tags.php:72
 msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
-msgstr ""
-"Hinterlasse einen Kommentar <span class=\"screen-reader-text\"> zu %s</span>"
+msgstr "Hinterlasse einen Kommentar <span class=\"screen-reader-text\"> zu %s</span>"
 
 #. translators: %s: Name of current post. Only visible to screen readers
 #: inc/template-tags.php:89 template-parts/content-page.php:35
@@ -110,27 +90,16 @@ msgstr "Nichts gefunden"
 
 #. translators: 1: link to WP admin new post page.
 #: template-parts/content-none.php:25
-msgid ""
-"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr ""
-"Sind Sie bereit Ihren ersten Beitrag zu veröffentlichen?  <a href=\"%1$s"
-"\">Starten Sie hier</a>."
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Sind Sie bereit Ihren ersten Beitrag zu veröffentlichen?  <a href=\"%1$s\">Starten Sie hier</a>."
 
 #: template-parts/content-none.php:38
-msgid ""
-"Sorry, but nothing matched your search terms. Please try again with some "
-"different keywords."
-msgstr ""
-"Es tut uns leid. Ihre Suche ergab keinen Treffer. Bitte versuchen Sie es mit "
-"einem anderen Begriff."
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Es tut uns leid. Ihre Suche ergab keinen Treffer. Bitte versuchen Sie es mit einem anderen Begriff."
 
 #: template-parts/content-none.php:44
-msgid ""
-"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
-"searching can help."
-msgstr ""
-"Es scheint, dass wir nicht finden können, was du suchst. Vielleicht kann die "
-"Suche helfen."
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Es scheint, dass wir nicht finden können, was du suchst. Vielleicht kann die Suche helfen."
 
 #: template-parts/content-page.php:22 template-parts/content.php:45
 msgid "Pages:"
@@ -166,3 +135,12 @@ msgstr "von %s"
 msgctxt "list item separator"
 msgid ", "
 msgstr ", "
+
+#: footer.php:25
+msgid "Created with"
+msgstr "Erstellt mit"
+
+#: footer.php:25
+msgid "and"
+msgstr "und"
+
