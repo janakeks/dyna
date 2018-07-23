@@ -28,9 +28,10 @@
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 
-	<?php dyna_post_thumbnail(); ?>
-
 	<div class="entry-content">
+
+		<?php dyna_post_thumbnail(); ?>
+
 		<?php
 		the_content( sprintf(
 			wp_kses(

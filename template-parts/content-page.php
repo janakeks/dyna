@@ -14,9 +14,10 @@
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 	</header><!-- .entry-header -->
 
-	<?php dyna_post_thumbnail(); ?>
-
 	<div class="entry-content">
+
+		<?php dyna_post_thumbnail(); ?>
+
 		<?php
 			the_content();
 
