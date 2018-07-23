@@ -45,6 +45,10 @@ msgstr ""
 msgid "Created with"
 msgstr ""
 
+#: footer.php:25
+msgid "and"
+msgstr ""
+
 #: functions.php:47
 msgid "Primary"
 msgstr ""
