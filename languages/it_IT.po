@@ -1,0 +1,229 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Dyna\n"
+"POT-Creation-Date: 2018-07-24 03:57+0800\n"
+"PO-Revision-Date: 2018-07-24 03:59+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.9\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oops! Pagina non trovata."
+
+#: 404.php:21
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+"Non abbiamo trovato risultati corrispondenti alla tua ricerca. Per favore "
+"prova di nuovo con parole diverse."
+
+#: 404.php:30
+msgid "Most Used Categories"
+msgstr "Categorie più utilizzate"
+
+#. translators: %1$s: smiley
+#: 404.php:47
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Prova a cercare negli archivi mensili. %1$s"
+
+#. translators: 1: title.
+#: comments.php:34
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "Un commento su &ldquo;%1$s&rdquo;"
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:40
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:63
+msgid "Comments are closed."
+msgstr "I commenti sono chiusi."
+
+#: footer.php:18
+msgid "Created with"
+msgstr "Created with"
+
+#: footer.php:20
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: footer.php:22
+msgid "and"
+msgstr "e"
+
+#: footer.php:24
+msgid "https://dyna.press/"
+msgstr ""
+
+#: functions.php:47
+msgid "Primary"
+msgstr "Primario"
+
+#: functions.php:143
+msgctxt "Noto Serif font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:168
+msgid "Sidebar"
+msgstr "Barra laterale"
+
+#: functions.php:170
+msgid "Add widgets here."
+msgstr "Aggiungi i widget qui."
+
+#: header.php:24
+msgid "Skip to content"
+msgstr "Salta al contenuto"
+
+#: header.php:44
+msgid "Primary Menu"
+msgstr "Menu principale"
+
+#. translators: %s: post date.
+#: inc/template-tags.php:29
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Pubblicato il %s"
+
+#. translators: %s: post author.
+#: inc/template-tags.php:45
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr "da %s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:62
+msgid ", "
+msgstr ", "
+
+#. translators: 1: list of categories.
+#: inc/template-tags.php:65
+#, php-format
+msgid "Posted in %1$s"
+msgstr "Pubblicato in %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:69
+msgctxt "list item separator"
+msgid ", "
+msgstr ", "
+
+#. translators: 1: list of tags.
+#: inc/template-tags.php:72
+#, php-format
+msgid "Tagged %1$s"
+msgstr "Taggato %1$s"
+
+#. translators: %s: post title
+#: inc/template-tags.php:82
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Lascia un commento<span class=\"screen-reader-text\"> su %s</span>"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:99 template-parts/content-page.php:38
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Modifica <span class=\"screen-reader-text\">%s</span>"
+
+#: inc/woocommerce.php:227
+msgid "View your shopping cart"
+msgstr "Visualizza il tuo carrello"
+
+#. translators: number of items in the mini cart.
+#: inc/woocommerce.php:231
+#, php-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: search query.
+#: search.php:20
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Risultati della ricerca per: %s"
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Nessun risultato"
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:25
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Pronto a pubblicare il tuo primo post? <a href=\"%1$s\">Inizia qui</a>."
+
+#: template-parts/content-none.php:38
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Ci dispiace, ma non ha trovato i termini di ricerca. Riprova con alcune "
+"parole chiave diverse."
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Sembra che non possiamo trovare quello che stai cercando. Forse la ricerca "
+"pu&ograve; aiutare."
+
+#: template-parts/content-page.php:25 template-parts/content.php:50
+msgid "Pages:"
+msgstr "Pagine:"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content.php:39
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Continua a leggere<span class=\"screen-reader-text\"> \"%s\"</span>"
+
+#. Theme Name of the plugin/theme
+msgid "Dyna"
+msgstr "Dynasmooth out the curves while drawing"
+
+#. Theme URI of the plugin/theme
+msgid "https://dyna.press"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "A dynamic theme combining Foundation and Gutenberg."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Alf Drollinger"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://alf-drollinger.com"
+msgstr ""
