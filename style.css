@@ -574,6 +574,7 @@ a:hover, a:active {
 	left: -999em;
 	z-index: 99999;
 	text-align: left;
+	background-color: #ffffff;
 }
 
 .main-navigation ul ul ul {
