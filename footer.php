@@ -17,11 +17,11 @@
 
 		<?php _e('Created with', 'dyna'); ?>
 
-        <a href="<?php echo esc_url( __( 'https://wordpress.org/', '_s' ) ); ?>">WordPress</a>
+        <a href="<?php echo esc_url( __( 'https://wordpress.org/', 'dyna' ) ); ?>">WordPress</a>
 
 		<?php _e('and', 'dyna'); ?>
 
-        <a href="<?php echo esc_url( __( 'https://dyna.press/', '_s' ) ); ?>">Dyna</a>
+        <a href="<?php echo esc_url( __( 'https://dyna.press/', 'dyna' ) ); ?>">Dyna</a>
 
 	</div><!-- .site-info -->
 </footer><!-- #colophon -->
