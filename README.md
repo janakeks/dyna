@@ -18,15 +18,15 @@ Installation is very easy. You need a WordPress, download the ZIP-file from Gith
 
 ## Translation
 
-Dyna is available in major languages and complete translation-ready. See the translation status and help translating Dyna on https://poeditor.com/join/project/t3gmD1eDOu
+Dyna is available in major languages and complete translation-ready. See the translation status and help translating Dyna on https://poeditor.com/join/project/t3gmD1eDOu. Read more about translation in this issue: https://github.com/dyna-press/dyna/issues/25
 
 ## Code Quality / CI
 
-We are about to set up automatic tests. Currently there is only https://travis-ci.com/dyna-press/dyna-starter-theme
+We are about to set up automatic tests. Currently there is only https://travis-ci.com/dyna-press/dyna-starter-theme. Read more about quality assurance and continous integration in this issue: https://github.com/dyna-press/dyna/issues/24
 
 ## Performance
 
-Information about performance is coming soon.
+Information about performance is coming soon. We're working on it in issue https://github.com/dyna-press/dyna/issues/26
 
 ## License
 
