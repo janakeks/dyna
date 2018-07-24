@@ -8,7 +8,20 @@
 
 The dyna Starter-Theme is based on Underscores and the Gutenberg Starter Theme. It is currently under hard development and will soon add some interesting features. You may use it, fork it and do something cool with it.
 
+## Features
+
+This is the beginning. Many neat things will come. 
+
+- Very stable Starter Theme
+- Gutenberg-ready
+- Responsive
+- Quality assured
+- Translation-ready
+- WooCommerce-ready
+
 ## Demo Website
+
+[![Dyna Demo](https://github.com/dyna-press/dyna-assets/blob/master/dyna-starter-theme-v010.jpg "Dyna Demo")](https://dyna.press)
 
 There is no Demo set up for now. Visit our official Website on https://dyna.press to see how Dyna looks. Note that this is just a starter theme, stunning design things will be added soon.
 
