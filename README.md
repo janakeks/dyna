@@ -34,7 +34,7 @@ Dyna is a Free Open Source Project. That means it is free of charge, you can use
 
 ## Contribution
 
-We love every kind of contribution. There are many things you may do to help, even if you are no developer or a beginner. We will write soon more about contribution, but if you want to help building just drop me a line or create an [issue](https://github.com/dyna-press/dyna-starter-theme/issues).
+We love every kind of contribution. There are many things you may do to help, even if you are no developer or a beginner. Look for the [want-help issues](https://github.com/dyna-press/dyna/labels/want-help) in this repo. We will write soon more about contribution, but if you want to help building just drop me a line or create an [issue](https://github.com/dyna-press/dyna/issues).
 
 ## Donation
 
@@ -42,4 +42,4 @@ I am not ready for recieving donations. Coming soon.
 
 ## Support
 
-Stuck? Create an [issue](https://github.com/dyna-press/dyna-starter-theme/issues) and I will help you out.
+Stuck? Create an [issue](https://github.com/dyna-press/dyna/issues) and I will help you out.
