@@ -9,3 +9,15 @@ The dyna Starter-Theme is based on Underscores and the Gutenberg Starter Theme. 
 ## Translation
 
 Dyna is available in major languages and complete translation-ready. See the translation status and help translating Dyna on https://poeditor.com/join/project/t3gmD1eDOu
+
+## Code Quality / CI
+
+Information about coding quality and automated checks coming soon.
+
+## Performance
+
+Information about performance is coming soon.
+
+## License
+
+Information about license is coming soon.
