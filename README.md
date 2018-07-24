@@ -1,4 +1,6 @@
-![Dyna Logo](https://github.com/dyna-press/dyna-starter-theme/raw/master/assets/dyna-logo-250.png "Dyna Logo")
+[![Dyna Logo](https://github.com/dyna-press/dyna-assets/raw/master/dyna-logo-250.png "Dyna Logo")](https://dyna.press)
+
+[![Dyna Teaser](https://github.com/dyna-press/dyna-assets/raw/master/dyna-teaser.jpg "Dyna Teaser")](https://dyna.press)
 
 # Dyna Starter Theme
 
