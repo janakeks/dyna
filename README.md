@@ -28,7 +28,9 @@ There is no Demo set up for now. Visit our official Website on https://dyna.pres
 
 ## Installation
 
-Installation is very easy. You need a WordPress, download the ZIP-file from Github and install the Theme from your WordPress Admin. There will be other ways and better instructions coming soon.
+Installation is very easy. You need a WordPress, download the ZIP-file from Github and install the Theme from your WordPress Admin. There will be other ways for developer like Webpack coming soon, but for now this is the easy way to start developing your own theme.
+
+Better instructions are on the way, but for now you may only delete the .dot-files as they are not needed in WordPress.
 
 ## Translation
 
@@ -48,19 +50,28 @@ We use semantic code and follow the [WCAG 2.1 accessibility guidelines](https://
 
 ### Browser testing
 
-We currently do manual tests with [Browserstack](https://www.browserstack.com/). We prepare Selenium-based automated tests. Read about the current status of browser testing in our [issue about quality assurance](https://github.com/dyna-press/dyna/issues/24).
+We currently do manual browser checks and test with mobile devices and tablets using [Browserstack](https://www.browserstack.com/). We prepare Selenium-based automated tests. Read about the current status of browser testing in our [issue about quality assurance](https://github.com/dyna-press/dyna/issues/24).
 
 ### Sourcecode Quality / CI 
 
-We are about to set up automatic tests. Currently there is only https://travis-ci.com/dyna-press/dyna-starter-theme. Read more about quality assurance and continous integration in this issue: 
+We verify our theme code fully automatically with [Travis](https://travis-ci.com/dyna-press/dyna-starter-theme) and [Scrutinizer](https://scrutinizer-ci.com/g/dyna-press/dyna/).
 
-### Performance
+PHP and Javascript are the two potential vulnerabilities that allow attackers to hack a WordPress page. Through continuous integration, we ensure that our code contains no vulnerabilities, is error-free and of high quality. In addition, Scrutinizier shows us our code quality, which educates us to code cleaner.
+
+### Performance and server load
+
+The web should be fast. With the increasing mobile usage, performance is a 
+We check 
 
 Information about performance is coming soon. We're working on it in issue https://github.com/dyna-press/dyna/issues/26
 
 ### Server load
 
-We do manual tests on server load from time to time or if indicated. That is important, as our themes should run on every WordPress Host using PHP 7. Even smaller shared hosting should be possible.
+The web should be fast. With mobile use at the latest, performance became a decisive value for websites. For search engine optimization SEO, speed has always been a key factor.
+
+We test our performance regularly, at least before each new release. We use [GTMetrix](https://gtmetrix.com/), which includes Google Page Speed and Yahoo YLOW. As a guaranteed value we achieve an A-grade above 90%. Generally it should be possible to crack the 100% value with the optimization plugin Autoptimize and a caching plugin.
+
+Second, we test the server load using our own server tools. This ensures that our themes can also run on low-cost shared hosts.
 
 ## License
 
