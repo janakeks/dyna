@@ -5,11 +5,11 @@
  *
  * Contains handlers to make Theme Customizer preview reload changes asynchronously.
  */
+/** global: wp */
 
 ( function( $ ) {
 
 	// Site title and description.
-    /** global: wp */
 	wp.customize( 'blogname', function( value ) {
 		value.bind( function( to ) {
 			$( '.site-title a' ).text( to );
