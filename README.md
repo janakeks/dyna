@@ -70,6 +70,10 @@ Second, we test the server load using our own server tools. This ensures that ou
 
 The compliance to WordPress is a very important task. If you use a starter theme that is not compliant you may spend additional hours fixing these issues before you are able to upload it to the WordPress Theme Directory. We check the compliance with the [WordPress Theme Requirements](https://make.wordpress.org/themes/handbook/review/) using the [Theme Check Plugin](https://de.wordpress.org/plugins/theme-check/) and the [Theme Check Platform](http://themecheck.org).
 
+## Versioning
+
+We use [Semantic Versioning 2.0.0](https://semver.org/). That means a Version is 1.2.3, where 1 is a major release that brings up fundamental changes and includes new features that might also break compatibility with child themes, 2 is a minor release and 3 is a single fix or a set of some bugfixes. We use 1.0.1-test123 for releases only for testing-purpose, 1.0.1-alpha123 for releases that are in an early pre-release stadium and 1.0.1-beta123 for releases that are good for a beta test or development servers.
+
 ## License
 
 Dyna is a Free Open Source Project. That means it is free of charge, you can use it for building commercial websites and commercial themes. Read the GPL 2.0 Licence here: https://github.com/dyna-press/dyna-starter-theme/LICENCE
