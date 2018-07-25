@@ -65,3 +65,5 @@ build:
 filter:
     excluded_paths:
         - languages/*
+    dependency_paths:
+        - wordpress/
