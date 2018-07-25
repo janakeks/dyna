@@ -28,9 +28,9 @@ There is no Demo set up for now. Visit our official Website on https://dyna.pres
 
 ## Installation
 
-Installation is very easy. You need a WordPress, download the ZIP-file from Github and install the Theme from your WordPress Admin. There will be other ways for developer like Webpack coming soon, but for now this is the easy way to start developing your own theme.
+Installation is very easy. You need a WordPress, download the [latest stable release](https://github.com/dyna-press/dyna/releases) from Github and install the Theme from your WordPress Admin. Note that releases ship without unnecessary files like .git-files and test-configurations while the ZIP-Download of the Master-branch contain these files. They do no harm but they are useless on your WordPress installation.
 
-Better instructions are on the way, but for now you may only delete the .dot-files as they are not needed in WordPress.
+There will be other ways for developer like Webpack coming soon, but for now this is the easy way to use this theme and to start developing your own theme.
 
 ## Translation
 
