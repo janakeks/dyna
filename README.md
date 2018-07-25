@@ -42,7 +42,7 @@ Code quality is one of the least considered arguments when choosing a WordPress 
 
 ### HTML5 Validity
 
-We check the quality of our entire HTML5 source code as well as the CSS and Javascript with various tools, especially the  [HTML5-Validator](https://html5.validator.nu/). These tests are not currently automated, but are performed before each new release.
+We check the quality of our entire HTML5 source code as well as the CSS and Javascript with various tools, especially the  [HTML5-Validator](https://html5.validator.nu/) and of course the [W3 Validator](https://validator.w3.org/nu/). These tests are not currently automated, but are performed before each new release.
 
 ### Accessibility
 
