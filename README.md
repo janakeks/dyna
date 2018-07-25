@@ -42,7 +42,7 @@ Code quality is one of the least considered arguments when choosing a WordPress 
 
 ### HTML5 Validity
 
-We check the quality of our entire HTML5 source code as well as the CSS and Javascript with various tools, especially the  [HTML5-Validator](https://html5.validator.nu/). These tests are not currently automated, but are performed before each new release.
+We check the quality of our entire HTML5 source code as well as the CSS and Javascript with various tools, especially the  [HTML5-Validator](https://html5.validator.nu/) and of course the [W3 Validator](https://validator.w3.org/nu/). These tests are not currently automated, but are performed before each new release.
 
 ### Accessibility
 
@@ -60,18 +60,15 @@ PHP and Javascript are the two potential vulnerabilities that allow attackers to
 
 ### Performance and server load
 
-The web should be fast. With the increasing mobile usage, performance is a 
-We check 
-
-Information about performance is coming soon. We're working on it in issue https://github.com/dyna-press/dyna/issues/26
-
-### Server load
-
 The web should be fast. With mobile use at the latest, performance became a decisive value for websites. For search engine optimization SEO, speed has always been a key factor.
 
 We test our performance regularly, at least before each new release. We use [GTMetrix](https://gtmetrix.com/), which includes Google Page Speed and Yahoo YLOW. As a guaranteed value we achieve an A-grade above 90%. Generally it should be possible to crack the 100% value with the optimization plugin Autoptimize and a caching plugin.
 
 Second, we test the server load using our own server tools. This ensures that our themes can also run on low-cost shared hosts.
+
+### Theme Check
+
+The compliance to WordPress is a very important task. If you use a starter theme that is not compliant you may spend additional hours fixing these issues before you are able to upload it to the WordPress Theme Directory. We check the compliance with the [WordPress Theme Requirements](https://make.wordpress.org/themes/handbook/review/) using the [Theme Check Plugin](https://de.wordpress.org/plugins/theme-check/) and the [Theme Check Platform](http://themecheck.org).
 
 ## License
 
