@@ -6,8 +6,6 @@
  * Learn more: https://git.io/vWdr2
  */
 
-/** Defining global variable for Eslint / Scrutinizer */
-/** global: navigator */
 
 ( function() {
 	var isIe = /(trident|msie)/i.test( navigator.userAgent );
