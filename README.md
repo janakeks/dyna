@@ -34,7 +34,7 @@ Better instructions are on the way, but for now you may only delete the .dot-fil
 
 ## Translation
 
-Dyna is available in major languages and complete translation-ready. See the translation status and help translating Dyna on [Poeditor.com](https://poeditor.com/join/project/t3gmD1eDOu). Read more about translation in the [translation issue](https://github.com/dyna-press/dyna/issues/25).
+Dyna is available in major languages and complete translation-ready. See the translation status and help translating Dyna on [Poeditor.com](https://poeditor.com/join/project/t3gmD1eDOu). Please help translating Dyna into your language. Create a Poeditor-Login and send me a request, it is so easy to donate. Read more about translation in the [translation issue](https://github.com/dyna-press/dyna/issues/25).
 
 ## Quality
 
