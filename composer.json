@@ -1,0 +1,10 @@
+{
+  "name": "dyna-press/dyna",
+  "description": "A dynamic theme combining Foundation and Gutenberg.",
+  "type": "wordpress-theme",
+  "license": "GPL-2.0",
+  "minimum-stability": "stable",
+  "require": {"composer/installers": "^1.5"},
+  "keywords": ["wordpress","theme","starter"],
+  "homepage": "https://github.com/dyna-press/dyna"
+}
