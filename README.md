@@ -28,9 +28,15 @@ There is no Demo set up for now. Visit our official Website on https://dyna.pres
 
 ## Installation
 
-Installation is very easy. You need a WordPress, download the [latest stable release](https://github.com/dyna-press/dyna/releases) from Github and install the Theme from your WordPress Admin. Note that releases ship without unnecessary files like .git-files and test-configurations while the ZIP-Download of the Master-branch contain these files. They do no harm but they are useless on your WordPress installation.
+Installation is a bit tricky until we finish our first release. 
 
-There will be other ways for developer like Webpack coming soon, but for now this is the easy way to use this theme and to start developing your own theme.
+Of course you need a WordPress installation. Download the [latest stable release](https://github.com/dyna-press/dyna/releases), extract the files and rename the subfolder to from dyna-X.X.X to dyna. Upload this folder into the wp-content/themes folder on your webserver.
+
+Of course you may also use the latest Master branch, but keep in mind that this ZIP-file includes unnecessary files like .git and test-configurations you do not need in your WordPress. They do not harm either.
+
+The easier way than FTP is to upload a ZIP-file using the Upload Theme function in your WordPress Admin. But keep in mind than Github ZIP-files have a unnecesary nested folder. It is best practise to unzip and re-zip the theme so that dyna.zip contains the files, not another dyna-X.X.X folder. Installation works in either cases, but there may be crazy things going on, if you try to use our [Child Theme](https://github.com/dyna-press/dyna-child) or update the theme later.
+
+There will be other ways for developer like Bower, NPM and Webpack coming soon, but for now this is the only way to use this theme and to start developing your own theme.
 
 ## Translation
 
