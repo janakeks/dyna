@@ -47,7 +47,7 @@
   }
   "eslintConfig": {
     "globals": {
-
+      "WordPress": true
     }
   }
 }
