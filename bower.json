@@ -1,0 +1,26 @@
+{
+  "name": "dyna",
+  "version": "0.0.2",
+  "homepage": "https://dyna.press",
+  "authors": [
+    "Alf Drollinger"
+  ],
+  "description": "A dynamic theme combining Foundation and Gutenberg.",
+  "moduleType": "globals",
+  "keywords": [
+    "wordpress",
+    "starter",
+    "theme"
+  ],
+  "license": "GPL-2.0",
+  "ignore": [
+    "**/.*",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+  },
+  "_source": "https://github.com/dyna-press/dyna.git",
+  "_target": "~0.0.2",
+  "_originalSource": "dyna"
+}
