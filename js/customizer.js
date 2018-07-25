@@ -6,6 +6,8 @@
  * Contains handlers to make Theme Customizer preview reload changes asynchronously.
  */
 
+/** Defining global variable for Eslint / Scrutinizer */
+/** global: wp */
 
 ( function( $ ) {
 
