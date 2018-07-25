@@ -48,6 +48,17 @@ build:
 #              format: name-of-format
 
 
+# Set dependency for WordPress
+# @link https://scrutinizer-ci.com/docs/tools/php/php-scrutinizer/analyzing-wordpress
+
+build:
+    nodes:
+        analysis:
+            dependencies:
+                before:
+                    - composer require --dev johnpbloch/wordpress
+
+
 # Use filter
 # @link
 
