@@ -107,3 +107,12 @@ I am not ready for recieving donations. Coming soon.
 ## Support
 
 Stuck? Create an [issue](https://github.com/dyna-press/dyna/issues) and I will help you out.
+
+<br/>
+<br/>
+<p align="center">
+<a href="http://dyna.press">
+<img src="https://github.com/dyna-press/dyna-assets/blob/master/dyna-signet/dyna-signet-blue-256.png?raw=true" alt="Dyna Website"/>
+</a>
+</p>
+
