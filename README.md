@@ -102,7 +102,7 @@ We love every kind of contribution. There are many things you may do to help, ev
 
 ## Donation
 
-I have not yet set up donations, but if you want to be informed about how to help me building Dyna or how to participate in this project, drop me a line. [alf@dyna.press](mailto:alf@dyna.press).
+I have not yet set up donations, but if you want to be informed about how to help me building Dyna or how to participate in this project, drop me a line: [alf@dyna.press](mailto:alf@dyna.press).
 
 ## Support
 
