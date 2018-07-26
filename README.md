@@ -22,7 +22,7 @@ This is the beginning. Many neat things will come.
 
 ## Demo Website
 
-[![Dyna Demo](https://github.com/dyna-press/dyna-assets/blob/master/screenshots/dyna-starter-theme-v010.jpg "Dyna Demo")](https://dyna.press)
+[![Dyna Demo](https://github.com/dyna-press/dyna-assets/blob/master/screenshots/dyna-starter-theme-current.jpg "Dyna Demo")](https://dyna.press)
 
 There is no Demo set up for now. Visit our official Website on https://dyna.press to see how Dyna looks. Note that this is just a starter theme, stunning design things will be added soon.
 
@@ -40,6 +40,8 @@ There will be other ways for developer like Bower, NPM and Webpack coming soon, 
 
 ## Translation
 
+[![Dyna Translation](https://github.com/dyna-press/dyna-assets/blob/master/poeditor/poeditor-current.jpg "Dyna Translation")](https://https://poeditor.com/join/project/t3gmD1eDOu)
+
 Dyna is available in major languages and complete translation-ready. See the translation status and help translating Dyna on [Poeditor.com](https://poeditor.com/join/project/t3gmD1eDOu). Please help translating Dyna into your language. Create a Poeditor-Login and send me a request, it is so easy to donate. Read more about translation in the [translation issue](https://github.com/dyna-press/dyna/issues/25).
 
 ## Quality
@@ -48,7 +50,7 @@ Code quality is one of the least considered arguments when choosing a WordPress 
 
 ### Sourcecode Quality / CI 
 
-[![Dyna CI](https://github.com/dyna-press/dyna-assets/blob/master/scrutinizer/scrutinizer-dyna010.jpg "Dyna CI")](https://dyna.press)
+[![Dyna CI](https://github.com/dyna-press/dyna-assets/blob/master/scrutinizer/scrutinizer-current.jpg "Dyna CI")](https://scrutinizer-ci.com/g/dyna-press/dyna/)
 
 We verify our theme code fully automatically with [Travis](https://travis-ci.com/dyna-press/dyna-starter-theme) and [Scrutinizer](https://scrutinizer-ci.com/g/dyna-press/dyna/).
 
@@ -64,7 +66,7 @@ We check the quality of our entire HTML5 source code as well as the CSS and Java
 
 ### Performance and server load
 
-[![Dyna Performance](https://github.com/dyna-press/dyna-assets/blob/master/gtmetrix/gtmetrix-dyna010.jpg "Dyna Performance")](https://dyna.press)
+[![Dyna Performance](https://github.com/dyna-press/dyna-assets/blob/master/gtmetrix/gtmetrix-current.jpg "Dyna Performance")](https://gtmetrix.com/reports/dyna.press/HfwXCyXf)
 
 The web should be fast. With mobile use at the latest, performance became a decisive value for websites. For search engine optimization SEO, speed has always been a key factor.
 
@@ -78,7 +80,7 @@ We use semantic code and follow the [WCAG 2.1 accessibility guidelines](https://
 
 ### Theme Check
 
-[![Dyna Performance](https://github.com/dyna-press/dyna-assets/blob/master/theme-check/theme-check-98.jpg "Dyna Performance")](https://dyna.press)
+[![Dyna Performance](https://github.com/dyna-press/dyna-assets/blob/master/theme-check/theme-check-current.jpg "Dyna Performance")](http://themecheck.org)
 
 The compliance to WordPress is a very important task. If you use a starter theme that is not compliant you may spend additional hours fixing these issues before you are able to upload it to the WordPress Theme Directory. We check the compliance with the [WordPress Theme Requirements](https://make.wordpress.org/themes/handbook/review/) using the [Theme Check Plugin](https://de.wordpress.org/plugins/theme-check/) and the [Theme Check Platform](http://themecheck.org).
 
