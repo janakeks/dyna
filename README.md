@@ -46,25 +46,25 @@ Dyna is available in major languages and complete translation-ready. See the tra
 
 Code quality is one of the least considered arguments when choosing a WordPress theme. The design weighs too heavily in the eye of the beholder. But for a theme framework or starter theme, quality is an enormously important argument. Therefore quality control is one of the most important components in the development of Dyna. We do a couple of mostly automated tests to assure quality. Read about the current status of testing in our [issue about quality assurance](https://github.com/dyna-press/dyna/issues/24). Our complete set of tests is:
 
-### HTML5 Validity
-
-We check the quality of our entire HTML5 source code as well as the CSS and Javascript with various tools, especially the  [HTML5-Validator](https://html5.validator.nu/) and of course the [W3 Validator](https://validator.w3.org/nu/). These tests are not currently automated, but are performed before each new release.
-
-### Accessibility
-
-We use semantic code and follow the [WCAG 2.1 accessibility guidelines](https://www.w3.org/TR/WCAG21/) of the [Web Accessibilty Initiative WAI](https://www.w3.org/WAI/). Conformity with the rules is tested with [several WAI recommended tools](https://www.w3.org/WAI/ER/tools/). These tests are not currently automated, but are performed before each new release.
-
-### Browser testing
-
-We currently do manual browser checks and test with mobile devices and tablets using [Browserstack](https://www.browserstack.com/). We prepare Selenium-based automated tests. Read about the current status of browser testing in our [issue about quality assurance](https://github.com/dyna-press/dyna/issues/24).
-
 ### Sourcecode Quality / CI 
+
+[![Dyna CI](https://github.com/dyna-press/dyna-assets/blob/master/scrutinizer/scrutinizer-dyna010.jpg "Dyna CI")](https://dyna.press)
 
 We verify our theme code fully automatically with [Travis](https://travis-ci.com/dyna-press/dyna-starter-theme) and [Scrutinizer](https://scrutinizer-ci.com/g/dyna-press/dyna/).
 
 PHP and Javascript are the two potential vulnerabilities that allow attackers to hack a WordPress page. Through continuous integration, we ensure that our code contains no vulnerabilities, is error-free and of high quality. In addition, Scrutinizier shows us our code quality, which educates us to code cleaner.
 
+### Browser testing
+
+We currently do manual browser checks and test with mobile devices and tablets using [Browserstack](https://www.browserstack.com/). We prepare Selenium-based automated tests. Read about the current status of browser testing in our [issue about quality assurance](https://github.com/dyna-press/dyna/issues/24).
+
+### HTML5 Validity
+
+We check the quality of our entire HTML5 source code as well as the CSS and Javascript with various tools, especially the  [HTML5-Validator](https://html5.validator.nu/) and of course the [W3 Validator](https://validator.w3.org/nu/). These tests are not currently automated, but are performed before each new release.
+
 ### Performance and server load
+
+[![Dyna Performance](https://github.com/dyna-press/dyna-assets/blob/master/gtmetrix/gtmetrix-dyna010.jpg "Dyna Performance")](https://dyna.press)
 
 The web should be fast. With mobile use at the latest, performance became a decisive value for websites. For search engine optimization SEO, speed has always been a key factor.
 
@@ -72,7 +72,13 @@ We test our performance regularly, at least before each new release. We use [GTM
 
 Second, we test the server load using our own server tools. This ensures that our themes can also run on low-cost shared hosts.
 
+### Accessibility
+
+We use semantic code and follow the [WCAG 2.1 accessibility guidelines](https://www.w3.org/TR/WCAG21/) of the [Web Accessibilty Initiative WAI](https://www.w3.org/WAI/). Conformity with the rules is tested with [several WAI recommended tools](https://www.w3.org/WAI/ER/tools/). These tests are not currently automated, but are performed before each new release.
+
 ### Theme Check
+
+[![Dyna Performance](https://github.com/dyna-press/dyna-assets/blob/master/theme-check/theme-check-98.jpg "Dyna Performance")](https://dyna.press)
 
 The compliance to WordPress is a very important task. If you use a starter theme that is not compliant you may spend additional hours fixing these issues before you are able to upload it to the WordPress Theme Directory. We check the compliance with the [WordPress Theme Requirements](https://make.wordpress.org/themes/handbook/review/) using the [Theme Check Plugin](https://de.wordpress.org/plugins/theme-check/) and the [Theme Check Platform](http://themecheck.org).
 
