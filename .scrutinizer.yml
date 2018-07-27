@@ -22,7 +22,6 @@ build:
 
 # Do checks on PHP and Javascript
 # @link https://scrutinizer-ci.com/g/dyna-press/dyna/settings/build-config
-# @link https://scrutinizer-ci.com/docs/reviews/configure_automated_checks
 
 checks:
     php:
