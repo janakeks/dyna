@@ -3,9 +3,6 @@
   "version": "0.0.2",
   "description": "WordPress Theme framework",
   "main": "index.js",
-  "scripts": {
-    "postinstall": "gulp copy-assets"
-  },
   "engines": {
     "npm": ">=2.1.8"
   },

@@ -14,8 +14,12 @@ build:
       tests:
         override:
           - php-scrutinizer-run
-#          - phpcs-run                  # build failing when enabled :-(
+          - phpcs-run                  # build failing when enabled :-(
+          - command: phpcs-run
+            use_website_config: true   # <- uses the website config
+#         - command: phpcs-run --config phpcs.xml    # one step ahead
           - js-scrutinizer-run
+
 
 checks:
     php: true
