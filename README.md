@@ -102,7 +102,7 @@ We love every kind of contribution. There are many things you may do to help, ev
 
 ## Donation
 
-I am not ready for recieving donations. Coming soon.
+I have not yet set up donations, but if you want to be informed about how to help me building Dyna or how to participate in this project, drop me a line: [alf@dyna.press](mailto:alf@dyna.press).
 
 ## Support
 
@@ -115,4 +115,3 @@ Stuck? Create an [issue](https://github.com/dyna-press/dyna/issues) and I will h
 <img src="https://github.com/dyna-press/dyna-assets/blob/master/dyna-signet/dyna-signet-blue-256.png?raw=true" alt="Dyna Website"/>
 </a>
 </p>
-
