@@ -15,9 +15,9 @@ build:
         override:
           - php-scrutinizer-run
           - phpcs-run
-#         - command: phpcs-run
-#           use_website_config: true   # <- uses the website config
-          - command: phpcs-run --config phpcs.xml
+         - command: phpcs-run
+           use_website_config: true   # <- uses the website config
+#         - command: phpcs-run --config phpcs.xml   # unfortunately does not work yet
           - js-scrutinizer-run
 
 
@@ -69,5 +69,6 @@ build:
 filter:
     excluded_paths:
         - languages/*
+        - gulpfile.js
     dependency_paths:
-        - wordpress/
+        - vendor/
