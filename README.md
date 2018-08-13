@@ -39,7 +39,16 @@ Of course you may also use the latest Master branch, but keep in mind that this 
 
 The easier way than FTP is to upload a ZIP-file using the Upload Theme function in your WordPress Admin. But keep in mind than Github ZIP-files have a unnecesary nested folder. It is best practise to unzip and re-zip the theme so that dyna.zip contains the files, not another dyna-X.X.X folder. Installation works in either cases, but there may be crazy things going on, if you try to use our [Child Theme](https://github.com/dyna-press/dyna-child) or update the theme later.
 
-There will be other ways for developer like Bower, NPM and Webpack coming soon, but for now this is the only way to use this theme and to start developing your own theme.
+We will add ready-made downloads on our website and improve the installation of our theme. Stay tuned.
+
+### Clone the repository and install with npm
+```bash
+$ cd my-wordpress-folder/wp-content/themes/
+$ git clone https://github.com/dyna-press/dyna.git
+$ cd dyna
+$ npm install
+```
+There will be other ways for developer like Bower and Webpack coming soon.
 
 ## Translation
 
@@ -97,7 +106,7 @@ We use [Semantic Versioning 2.0.0](https://semver.org/). That means a Version is
 
 ## License
 
-Dyna is a Free Open Source Project. That means it is free of charge, you can use it for building commercial websites and commercial themes. Read the GPL 2.0 Licence here: https://github.com/dyna-press/dyna-starter-theme/LICENCE
+Dyna is a Free Open Source Project. That means it is free of charge, you can use it for building commercial websites and commercial themes. Read the GPL 2.0 Licence here: https://github.com/dyna-press/dyna/blob/master/LICENSE
 
 ## Contribution
 
