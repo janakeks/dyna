@@ -89,22 +89,22 @@ if ( ! function_exists( 'dyna_setup' ) ) :
 		// Add support for custom color scheme.
 		add_theme_support( 'editor-color-palette', array(
 			array(
-				'name'  => esc_html__( 'Strong Blue', 'gutenbergtheme' ),
+				'name'  => esc_html__( 'Strong Blue', 'dyna' ),
 				'slug'  => 'strong-blue',
 				'color' => '#0073aa',
 			),
 			array(
-				'name'  => esc_html__( 'Lighter Blue', 'gutenbergtheme' ),
+				'name'  => esc_html__( 'Lighter Blue', 'dyna' ),
 				'slug'  => 'lighter-blue',
 				'color' => '#229fd8',
 			),
 			array(
-				'name'  => esc_html__( 'Very Light Gray', 'gutenbergtheme' ),
+				'name'  => esc_html__( 'Very Light Gray', 'dyna' ),
 				'slug'  => 'very-light-gray',
 				'color' => '#eee',
 			),
 			array(
-				'name'  => esc_html__( 'Very Dark Gray', 'gutenbergtheme' ),
+				'name'  => esc_html__( 'Very Dark Gray', 'dyna' ),
 				'slug'  => 'very-dark-gray',
 				'color' => '#444',
 			),
