@@ -1,7 +1,7 @@
 [![Dyna Logo](https://github.com/dyna-press/dyna-assets/raw/master/dyna-logo/dyna-logo-150.png "Dyna Logo")](https://dyna.press)
 
 
-# Dyna Starter Theme
+# Dyna Theme Framework
 
 [![Travis Build Status](https://travis-ci.com/dyna-press/dyna.svg?branch=master)](https://travis-ci.com/dyna-press/dyna) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/dyna-press/dyna/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/dyna-press/dyna/?branch=master) [![Code Coverage](https://scrutinizer-ci.com/g/dyna-press/dyna/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/dyna-press/dyna/?branch=master) [![Code Intelligence Status](https://scrutinizer-ci.com/g/dyna-press/dyna/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence) [![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html) [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/dynapress/Dyna-Theme?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 [![Donate with Paypal](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MQM7CMKXW94KQ)
@@ -10,7 +10,7 @@
 
 [![Dyna Teaser](https://github.com/dyna-press/dyna-assets/raw/master/dyna-image/dyna-teaser.jpg "Dyna Teaser")](https://dyna.press)
 
-The Dyna Starter-Theme is based on Underscores and the Gutenberg Starter Theme. It is currently under hard development and will soon add some interesting features. You may use it, fork it and do something cool with it.
+Dyna is a Starter-Theme, based on Underscores and Gutenberg. It is currently under hard development and will become a developer-friendly Theme Framework. You may use it, fork it and do something cool with it.
 
 ## Features
 
