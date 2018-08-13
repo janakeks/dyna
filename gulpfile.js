@@ -190,11 +190,11 @@ gulp.task( 'copy-assets', function() {
     gulp.src( paths.node + 'font-awesome/scss/*.scss' )
         .pipe( gulp.dest( paths.dev + '/sass/fontawesome' ) );
 
-// _s SCSS files
-    gulp.src( paths.node + 'undescores-for-npm/sass/media/*.scss' )
-        .pipe( gulp.dest( paths.dev + '/sass/underscores' ) );
+// Dyna SCSS files
+    gulp.src( paths.node + 'sass/media/*.scss' )
+        .pipe( gulp.dest( paths.dev + '/sass' ) );
 
-// _s JS files into /src/js
+// Dyna JS files into /src/js
     gulp.src( paths.node + 'undescores-for-npm/js/skip-link-focus-fix.js' )
         .pipe( gulp.dest( paths.dev + '/js' ) );
 
@@ -208,7 +208,7 @@ gulp.task( 'copy-assets', function() {
 
 // Deleting the files distributed by the copy-assets task
 gulp.task( 'clean-vendor-assets', function() {
-    return del( [paths.dev + '/js/bootstrap4/**', paths.dev + '/sass/bootstrap4/**', './fonts/*wesome*.{ttf,woff,woff2,eot,svg}', paths.dev + '/sass/fontawesome/**', paths.dev + '/sass/underscores/**', paths.dev + '/js/skip-link-focus-fix.js', paths.js + '/**/skip-link-focus-fix.js', paths.js + '/**/popper.min.js', paths.js + '/**/popper.js', ( paths.vendor !== ''?( paths.js + paths.vendor + '/**' ):'' )] );
+    return del( [paths.dev + '/js/bootstrap4/**', paths.dev + '/sass/bootstrap4/**', './fonts/*wesome*.{ttf,woff,woff2,eot,svg}', paths.dev + '/sass/fontawesome/**', paths.dev + '/sass/**', paths.dev + '/js/skip-link-focus-fix.js', paths.js + '/**/skip-link-focus-fix.js', paths.js + '/**/popper.min.js', paths.js + '/**/popper.js', ( paths.vendor !== ''?( paths.js + paths.vendor + '/**' ):'' )] );
 });
 
 // Run
