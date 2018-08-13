@@ -44,8 +44,8 @@ There will be other ways for developer like Bower, NPM and Webpack coming soon, 
 ### 1. Clone the repository and install with npm
 ```bash
 $ cd my-wordpress-folder/wp-content/themes/
-$ git clone https://github.com/olefredrik/FoundationPress.git
-$ cd FoundationPress
+$ git clone https://github.com/dyna-press/dyna.git
+$ cd dyna
 $ npm install
 ```
 
