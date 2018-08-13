@@ -23,7 +23,9 @@
   },
   "homepage": "https://dyna.press",
   "dependencies": {
+    "foundation-sites": "^6.5.0-rc.2",
     "gulp": "3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
     "gulp-clean-css": "^3.9.2",
     "gulp-clone": "2.0.1",
     "gulp-concat": "^2.6.1",
@@ -39,8 +41,7 @@
     "gulp-sequence": "1.0.0",
     "gulp-sourcemaps": "2.6.4",
     "gulp-uglify": "^3.0.0",
-    "gulp-watch": "5.0.0",
-    "gulp-autoprefixer": "^5.0.0"
+    "gulp-watch": "5.0.0"
   },
   "eslintConfig": {
     "globals": {
