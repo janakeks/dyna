@@ -105,7 +105,7 @@ We use [Semantic Versioning 2.0.0](https://semver.org/). That means a Version is
 
 ## License
 
-Dyna is a Free Open Source Project. That means it is free of charge, you can use it for building commercial websites and commercial themes. Read the GPL 2.0 Licence here: https://github.com/dyna-press/dyna-starter-theme/LICENCE
+Dyna is a Free Open Source Project. That means it is free of charge, you can use it for building commercial websites and commercial themes. Read the GPL 2.0 Licence here: https://github.com/dyna-press/dyna/LICENCE
 
 ## Contribution
 
