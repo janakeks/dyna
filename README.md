@@ -105,7 +105,10 @@ We love every kind of contribution. There are many things you may do to help, ev
 
 ## Donation
 
-I have not yet set up donations, but if you want to be informed about how to help me building Dyna or how to participate in this project, drop me a line: [alf@dyna.press](mailto:alf@dyna.press).
+Dyna is completely free to use, even if you create commercial websites or commercial themes. But we would be very thankful to recieve a small donation that helps us to improve Dyna and to empower more people to use our free Theming Framework. Support us to write docs and produce videos. Every cent counts. Thank you!
+
+[![Donate with Paypal](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MQM7CMKXW94KQ)
+[![Buy Me a Coffee at ko-fi.com](https://img.shields.io/badge/-Give%20a%20Tea-orange.svg?colorB=593C1F&colorA=4e798d&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAVUlEQVR4AWNQtnJTQcZ%2Blb2fsWF0dQzYNRHWzIBdE2EDGGCaSNYI47x69fY%2FMRimnmiNyGqwavyflo6MaawRTTP1%2FIiM4dFBQBPl8UggyRHWSHYiBwCwA90T1NTlAQAAAABJRU5ErkJggg%3D%3D%0D%0A&logoWidth=14)](https://ko-fi.com/dynapress)
 
 ## Support
 
