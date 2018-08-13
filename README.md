@@ -41,6 +41,14 @@ The easier way than FTP is to upload a ZIP-file using the Upload Theme function 
 
 There will be other ways for developer like Bower, NPM and Webpack coming soon, but for now this is the only way to use this theme and to start developing your own theme.
 
+### 1. Clone the repository and install with npm
+```bash
+$ cd my-wordpress-folder/wp-content/themes/
+$ git clone https://github.com/olefredrik/FoundationPress.git
+$ cd FoundationPress
+$ npm install
+```
+
 ## Translation
 
 [![Dyna Translation](https://github.com/dyna-press/dyna-assets/blob/master/poeditor/poeditor-current.jpg "Dyna Translation")](https://https://poeditor.com/join/project/t3gmD1eDOu)
