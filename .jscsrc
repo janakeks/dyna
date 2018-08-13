@@ -4,6 +4,5 @@
     "excludeFiles": [
     	"js/**.min.js",
         "gulpfile.js"
-
     ]
 }
