@@ -134,11 +134,12 @@ build:
 
 
 # Use filter
-# @link
+# @link https://scrutinizer-ci.com/docs/reviews/excluding_files_from_analysis
 
 filter:
     excluded_paths:
         - languages/*
         - gulpfile.js
+        - doc/*
     dependency_paths:
         - vendor/
