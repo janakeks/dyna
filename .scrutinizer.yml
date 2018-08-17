@@ -105,13 +105,22 @@ build:
 # @link https://scrutinizer-ci.com/docs/tools/external-code-coverage/
 
 build:
+    tests:
+        override:
+        -
+            command: 'vendor/bin/phpunit --coverage-clover=clover.xml'
+            coverage:
+                file: 'coverage.xml'
+                format: 'clover'
+
+build:
     nodes:
         coverage:
             tests:
                 override:
                 - command: ./run-my-tests
                   coverage:
-                      file: target/coverage.xml
+                      file: coverage.xml
                       format: clover
 
 # Set dependency for WordPress
