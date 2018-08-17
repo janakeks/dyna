@@ -11,7 +11,6 @@
   "homepage": "https://github.com/dyna-press/dyna",
   "require-dev": {
     "phpdocumentor/phpdocumentor": "2.*",
-    "johnpbloch/wordpress": "^4.9",
-    "woocommerce/woocommerce": "^3.0"
+    "johnpbloch/wordpress": "^4.9"
   }
 }
