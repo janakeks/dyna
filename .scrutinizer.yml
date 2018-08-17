@@ -140,6 +140,6 @@ filter:
     excluded_paths:
         - languages/*
         - gulpfile.js
-        - doc/*
+        - docs/
     dependency_paths:
         - vendor/
