@@ -104,19 +104,15 @@ build:
 # @link https://scrutinizer-ci.com/docs/build/code_coverage
 # @link https://scrutinizer-ci.com/docs/tools/external-code-coverage/
 
-#build:
-#  nodes:
-#    coverage:
-#      tests:
-#        override:
-#          - command: ./my-test-run
-#            coverage:
-#              file: path/to/coverage-data
-
-              # These formats are supported:
-              # clover, cobertura, jacoco, python-cc, ruby-cc, go-cc
-#              format: name-of-format
-
+build:
+    nodes:
+        coverage:
+            tests:
+                override:
+                - command: ./run-my-tests
+                  coverage:
+                      file: target/coverage.xml
+                      format: clover
 
 # Set dependency for WordPress
 # @link https://scrutinizer-ci.com/docs/tools/php/php-scrutinizer/analyzing-wordpress
