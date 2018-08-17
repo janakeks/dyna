@@ -4,11 +4,14 @@
   "type": "wordpress-theme",
   "license": "GPL-2.0",
   "minimum-stability": "stable",
-  "require": {"composer/installers": "^1.5",
-    "phpdocumentor/phpdocumentor": "2.*"},
+  "require": {
+    "composer/installers": "^1.5"
+  },
   "keywords": ["wordpress","theme","starter"],
   "homepage": "https://github.com/dyna-press/dyna",
   "require-dev": {
-    "johnpbloch/wordpress": "^4.9"
+    "phpdocumentor/phpdocumentor": "2.*",
+    "johnpbloch/wordpress": "^4.9",
+    "automattic/woocommerce": "^2.0"
   }
 }
