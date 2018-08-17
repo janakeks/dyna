@@ -1,14 +1,44 @@
 <?php
 /**
- * dyna functions and definitions
+ * Dyna Functions
  *
+ * Dyna functions and definitions calling all functions in the inc-directory but initially
+ * based on the original _s Theme. It is very easy to disable a feature by commenting.
+ *
+ * Example:
+ * Dyna removes the Emoji Support in favor of page speed. If you want to get the styled
+ * Emojis back, just comment this out as follows:
+ *
+ * // require_once(get_template_directory().'/functions/disable-emoji.php');
+ *
+ * If you are really sure to not want this in your theme, you can also delete the line
+ * including comment and delete the file /functions/disable-emoji.php afterwards.
+ *
+ * @package Dyna
+ * @subpackage Functions
+ * @since 0.0.1
+ * @version 0.0.8
+ * @author Automattic Themeshaper Team
+ * @author Alf Drollinger - alf@dyna.press
+ * @copyright 2018 Dyna - https://dyna.press
+ * @license GNU GPL V2 - https://www.gnu.org/licenses/gpl
+ *
+ * @link https://codex.wordpress.org/Functions_File_Explained
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package dyna
  */
 
+/*
+ * Check if dyna_setup does not exist yet
+ */
 if ( ! function_exists( 'dyna_setup' ) ) :
 	/**
+	 * @function Dyna Setup
+	 * @since 0.0.1
+	 * @version 0.0.8
+	 * @author Automattic Themeshaper Team
+	 * @author Alf Drollinger <alf@dyna.press>
+	 *
 	 * Sets up theme defaults and registers support for various WordPress features.
 	 *
 	 * Note that this function is hooked into the after_setup_theme hook, which
@@ -24,7 +54,9 @@ if ( ! function_exists( 'dyna_setup' ) ) :
 		 */
 		load_theme_textdomain( 'dyna', get_template_directory() . '/languages' );
 
-		// Add default posts and comments RSS feed links to head.
+		/*
+		 * Add default posts and comments RSS feed links to head.
+		 */
 		add_theme_support( 'automatic-feed-links' );
 
 		/*
@@ -42,7 +74,9 @@ if ( ! function_exists( 'dyna_setup' ) ) :
 		 */
 		add_theme_support( 'post-thumbnails' );
 
-		// This theme uses wp_nav_menu() in one location.
+		/*
+		 * This theme uses wp_nav_menu() in one location.
+		 */
 		register_nav_menus( array(
 			'menu-1' => esc_html__( 'Primary', 'dyna' ),
 		) );
@@ -59,13 +93,17 @@ if ( ! function_exists( 'dyna_setup' ) ) :
 			'caption',
 		) );
 
-		// Set up the WordPress core custom background feature.
+		/*
+		 * Set up the WordPress core custom background feature.
+		 */
 		add_theme_support( 'custom-background', apply_filters( 'dyna_custom_background_args', array(
 			'default-color' => 'ffffff',
 			'default-image' => '',
 		) ) );
 
-		// Add theme support for selective refresh for widgets.
+		/*
+		 * Add theme support for selective refresh for widgets.
+		 */
 		add_theme_support( 'customize-selective-refresh-widgets' );
 
 		/**
@@ -225,3 +263,4 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 if ( class_exists( 'WooCommerce' ) ) {
 	require get_template_directory() . '/inc/woocommerce.php';
 }
+
