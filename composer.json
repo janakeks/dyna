@@ -12,6 +12,6 @@
   "require-dev": {
     "phpdocumentor/phpdocumentor": "2.*",
     "johnpbloch/wordpress": "^4.9",
-    "automattic/woocommerce": "^2.0"
+    "woocommerce/woocommerce": "^3.0"
   }
 }
