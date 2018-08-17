@@ -264,3 +264,12 @@ if ( class_exists( 'WooCommerce' ) ) {
 	require get_template_directory() . '/inc/woocommerce.php';
 }
 
+/**
+ * Including more colors in Customizer.
+ */
+require get_template_directory() . '/inc/colors.php';
+
+/**
+ * Remove Emoji Support
+ */
+require_once(get_template_directory().'/inc/disable-emoji.php');
