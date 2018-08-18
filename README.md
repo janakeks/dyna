@@ -9,9 +9,11 @@
 
 [![Dyna Teaser](https://github.com/dyna-press/dyna-assets/raw/master/dyna-image/dyna-teaser.jpg "Dyna Teaser")](https://dyna.press)
 
-# Dyna
+Dyna is a [WordPress Theme Framework](https://github.com/dyna-press/dyna), a [Starter Theme](https://github.com/dyna-press/dyna-starter-theme) and [Child Theme](https://github.com/dyna-press/dyna-child) and a [Theme Builder](https://github.com/dyna-press/dyna-customizer) based on Underscores and Gutenberg. It is under hard development, means it is not yet ready for production but can be used for developing own WordPress Themes.
 
-Dyna is a WordPress Theme Framework, a Starter Theme and Child Theme and a Theme Builder based on Underscores and Gutenberg. It is under hard development, means it is not yet ready for production but can be used for developing own WordPress Themes.
+The official website and demo is available at https://dyna.press.
+
+## Dyna documentation
 
 - [Dyna Overview and Live Demo](https://github.com/dyna-press/dyna-assets/blob/master/docs/1.introduction.md)
   - [What is Dyna?](https://github.com/dyna-press/dyna-assets/blob/master/docs/1.introduction.md#what-is-dyna)
