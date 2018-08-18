@@ -21,6 +21,7 @@ namespace Dyna;
 /**
  * Adds support for wp.com-specific theme functions.
  *
+ * @since 0.0.5
  * @global array $themecolors
  */
 function dyna_wpcom_setup() {

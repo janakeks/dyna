@@ -10,9 +10,12 @@
 /**
  * Jetpack setup function.
  *
- * See: https://jetpack.com/support/infinite-scroll/
- * See: https://jetpack.com/support/responsive-videos/
- * See: https://jetpack.com/support/content-options/
+ * @link https://jetpack.com/support/infinite-scroll/
+ * @link https://jetpack.com/support/responsive-videos/
+ * @link https://jetpack.com/support/content-options/
+ *
+ * @since 0.0.1
+ *
  */
 function dyna_jetpack_setup() {
 	// Add theme support for Infinite Scroll.
@@ -46,6 +49,9 @@ add_action( 'after_setup_theme', 'dyna_jetpack_setup' );
 
 /**
  * Custom render function for Infinite Scroll.
+ *
+ * @since 0.0.1
+ *
  */
 function dyna_infinite_scroll_render() {
 	while ( have_posts() ) {

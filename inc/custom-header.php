@@ -24,6 +24,8 @@ namespace Dyna;
  * Set up the WordPress core custom header feature.
  *
  * @uses dyna_header_style()
+ * @since 0.0.5
+ *
  */
 function dyna_custom_header_setup() {
 	add_theme_support( 'custom-header', apply_filters( 'dyna_custom_header_args', array(
@@ -42,6 +44,8 @@ if ( ! function_exists( 'dyna_header_style' ) ) :
 	 * Styles the header image and text displayed on the blog.
 	 *
 	 * @see dyna_custom_header_setup().
+     *
+	 * @since 0.0.5
 	 */
 	function dyna_header_style() {
 		$header_text_color = get_header_textcolor();
