@@ -3,7 +3,8 @@
  * WordPress.com-specific functions and definitions
  *
  * This file is centrally included from `wp-content/mu-plugins/wpcom-theme-compat.php`.
- * *
+ * It is not necessary but shipped with _s and here for compliance.
+ *
  * @package Dyna
  * @subpackage Functions
  * @since 0.0.1

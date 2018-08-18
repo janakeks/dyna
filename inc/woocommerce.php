@@ -2,6 +2,8 @@
 /**
  * WooCommerce Compatibility File
  *
+ * This file contains all functions for WooCommerce as shipped with _s.
+ *
  * @package Dyna
  * @subpackage Functions
  * @since 0.0.8

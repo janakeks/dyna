@@ -2,7 +2,7 @@
 /**
  * Dyna Template Functions
  *
- * Functions which enhance the theme by hooking into WordPress
+ * Functions which enhance the theme by hooking into WordPress.
  *
  * @package Dyna
  * @subpackage Functions

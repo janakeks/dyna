@@ -2,10 +2,21 @@
 /**
  * Jetpack Compatibility File
  *
+ * This file contains all functions for Jetpack compatibility as shipped with _s.
+ *
+ * @package Dyna
+ * @subpackage Functions
+ * @since 0.0.1
+ * @version 0.0.8
+ * @author Alf Drollinger - alf@dyna.press
+ * @copyright 2018 Dyna - https://dyna.press
+ * @license GNU GPL V2 - https://www.gnu.org/licenses/gpl
+ *
  * @link https://jetpack.com/
  *
- * @package dyna
  */
+
+namespace Dyna;
 
 /**
  * Jetpack setup function.
