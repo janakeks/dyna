@@ -2,10 +2,19 @@
 /**
  * WooCommerce Compatibility File
  *
+ * @package Dyna
+ * @subpackage Functions
+ * @since 0.0.8
+ * @version 0.0.8
+ * @author Alf Drollinger - alf@dyna.press
+ * @copyright 2018 Dyna - https://dyna.press
+ * @license GNU GPL V2 - https://www.gnu.org/licenses/gpl
+ *
  * @link https://woocommerce.com/
  *
- * @package dyna
  */
+
+namespace Dyna;
 
 /**
  * WooCommerce setup function.

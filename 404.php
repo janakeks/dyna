@@ -1,11 +1,23 @@
 <?php
 /**
- * The template for displaying 404 pages (not found)
+ * The 404 error page
+ *
+ * The template for displaying 404 pages (not found).
+ *
+ * @package Dyna
+ * @subpackage Templates
+ * @since 0.0.1
+ * @version 0.0.8
+ * @author Automattic Themeshaper Team
+ * @author Alf Drollinger - alf@dyna.press
+ * @copyright 2018 Dyna - https://dyna.press
+ * @license GNU GPL V2 - https://www.gnu.org/licenses/gpl
  *
  * @link https://codex.wordpress.org/Creating_an_Error_404_Page
  *
- * @package dyna
  */
+
+namespace Dyna;
 
 get_header();
 ?>

@@ -87,6 +87,14 @@
 
             <div class="nav-collapse">
                 <ul class="nav pull-right">
+                                        <li class="dropdown">
+                        <a href="../index.html" class="dropdown-toggle" data-toggle="dropdown">
+                            API Documentation <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                                                        <li><a href="../namespaces/Dyna.html">\Dyna</a></li>
+                                                    </ul>
+                    </li>
                                         <li class="dropdown" id="charts-menu">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                             Charts <b class="caret"></b>
@@ -106,7 +114,7 @@
                         <ul class="dropdown-menu">
                             <li>
                                 <a href="../reports/errors.html">
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <i class="icon-list-alt"></i>&#160;Errors <span class="label label-info pull-right">12</span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <i class="icon-list-alt"></i>&#160;Errors <span class="label label-info pull-right">0</span>
                                 </a>
                             </li>
                             <li>
@@ -136,10 +144,27 @@
                                 <div class="accordion" style="margin-bottom: 0">
         <div class="accordion-group">
             <div class="accordion-heading">
+                                    <a class="accordion-toggle " data-toggle="collapse" data-target="#namespace-387928292"></a>
                                 <a href="../namespaces/default.html" style="margin-left: 30px; padding-left: 0">\</a>
             </div>
-            <div id="namespace-265068856" class="accordion-body collapse in">
+            <div id="namespace-387928292" class="accordion-body collapse in">
                 <div class="accordion-inner">
+
+                                                    <div class="accordion" style="margin-bottom: 0">
+        <div class="accordion-group">
+            <div class="accordion-heading">
+                                <a href="../namespaces/Dyna.html" style="margin-left: 30px; padding-left: 0">Dyna</a>
+            </div>
+            <div id="namespace-222416840" class="accordion-body collapse ">
+                <div class="accordion-inner">
+
+                    
+                    <ul>
+                                                                                            </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 
                     
                     <ul>
@@ -247,8 +272,10 @@ including comment and delete the file /functions/disable-emoji.php afterwards.</
                 <h3 class=" ">dyna_setup()</h3>
                 <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
                 <pre class="signature" style="margin-right: 54px;">dyna_setup() </pre>
-                <p><em></em></p>
-                
+                <p><em>Sets up theme defaults and registers support for various WordPress features.</em></p>
+                <p>Note that this function is hooked into the after_setup_theme hook, which
+runs before the init hook. The init hook is too late for some features, such
+as indicating support for post thumbnails.</p>
 
                 
                 
@@ -260,7 +287,9 @@ including comment and delete the file /functions/disable-emoji.php afterwards.</
                                                             <dl>
                                     <dt>File</dt>
                     <dd><a href=""><div class="path-wrapper">functions.php</div></a></dd>
-                                                                            </dl>
+                                                                                            <dt>See also</dt>
+                                                                <dd><a href="https://developer.wordpress.org/themes/basics/theme-functions/#theme-setup"><span class="namespace-wrapper">https://developer.wordpress.org/themes/basics/theme-functions/#theme-setup</span></a></dd>
+                                                                </dl>
             <h2>Tags</h2>
             <table class="table table-condensed">
                                     <tr>
@@ -273,39 +302,10 @@ including comment and delete the file /functions/disable-emoji.php afterwards.</
                     </tr>
                                     <tr>
                         <th>
-                            function
-                        </th>
-                        <td>
-                                                                                            <p>Dyna Setup</p>
-                                                    </td>
-                    </tr>
-                                    <tr>
-                        <th>
                             since
                         </th>
                         <td>
                                                             0.0.1                                
-                                                    </td>
-                    </tr>
-                                    <tr>
-                        <th>
-                            version
-                        </th>
-                        <td>
-                                                            0.0.8                                
-                                                    </td>
-                    </tr>
-                                    <tr>
-                        <th>
-                            author
-                        </th>
-                        <td>
-                                                                                            <p>Automattic Themeshaper Team</p>
-                                                                                            <p>Alf Drollinger <a href="mailto:alf@dyna.press">alf@dyna.press</a></p>
-<p>Sets up theme defaults and registers support for various WordPress features.</p>
-<p>Note that this function is hooked into the after_setup_theme hook, which
-runs before the init hook. The init hook is too late for some features, such
-as indicating support for post thumbnails.</p>
                                                     </td>
                     </tr>
                             </table>
@@ -485,6 +485,7 @@ as indicating support for post thumbnails.</p>
                                                         <h1><i class="icon-code"></i></h1>
                             <div>
                                 <ul>
+                                                                            <li><a href="../namespaces/Dyna.html">\Dyna</a></li>
                                                                     </ul>
                             </div>
                         </section>
@@ -512,7 +513,7 @@ as indicating support for post thumbnails.</p>
                 <section class="span10 offset1">
                     <hr />
                     Documentation is powered by <a href="http://www.phpdoc.org/">phpDocumentor </a> and authored
-                    on August 18th, 2018 at 00:18.
+                    on August 18th, 2018 at 18:56.
                 </section>
             </section>
         </section>

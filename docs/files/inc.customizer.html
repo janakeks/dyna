@@ -87,6 +87,14 @@
 
             <div class="nav-collapse">
                 <ul class="nav pull-right">
+                                        <li class="dropdown">
+                        <a href="../index.html" class="dropdown-toggle" data-toggle="dropdown">
+                            API Documentation <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                                                        <li><a href="../namespaces/Dyna.html">\Dyna</a></li>
+                                                    </ul>
+                    </li>
                                         <li class="dropdown" id="charts-menu">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                             Charts <b class="caret"></b>
@@ -106,7 +114,7 @@
                         <ul class="dropdown-menu">
                             <li>
                                 <a href="../reports/errors.html">
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <i class="icon-list-alt"></i>&#160;Errors <span class="label label-info pull-right">12</span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <i class="icon-list-alt"></i>&#160;Errors <span class="label label-info pull-right">0</span>
                                 </a>
                             </li>
                             <li>
@@ -136,10 +144,27 @@
                                 <div class="accordion" style="margin-bottom: 0">
         <div class="accordion-group">
             <div class="accordion-heading">
+                                    <a class="accordion-toggle " data-toggle="collapse" data-target="#namespace-50468474"></a>
                                 <a href="../namespaces/default.html" style="margin-left: 30px; padding-left: 0">\</a>
             </div>
-            <div id="namespace-1548597535" class="accordion-body collapse in">
+            <div id="namespace-50468474" class="accordion-body collapse in">
                 <div class="accordion-inner">
+
+                                                    <div class="accordion" style="margin-bottom: 0">
+        <div class="accordion-group">
+            <div class="accordion-heading">
+                                <a href="../namespaces/Dyna.html" style="margin-left: 30px; padding-left: 0">Dyna</a>
+            </div>
+            <div id="namespace-357724432" class="accordion-body collapse ">
+                <div class="accordion-inner">
+
+                    
+                    <ul>
+                                                                                            </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 
                     
                     <ul>
@@ -160,7 +185,8 @@
 
                     <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal"><i class="icon-code"></i></a>
                     <h1><small></small>customizer.php</h1>
-                    <p><em>dyna Theme Customizer</em></p>
+                    <p><em>Dyna Theme Customizer
+*</em></p>
                     
 
                     
@@ -170,13 +196,54 @@
                 <aside class="span4 detailsbar">
                     <dl>
                                                     <dt>Package</dt>
-                            <dd><div class="namespace-wrapper">\dyna</div></dd>
+                            <dd><div class="namespace-wrapper">\Dyna\Functions</div></dd>
                         
-                        
+                                                                                    <dt>See also</dt>
+                                                                                        <dd><a href="https://codex.wordpress.org/Theme_Customization_API"><div class="namespace-wrapper">https://codex.wordpress.org/Theme_Customization_API</div></a></dd>
+                                                    
                     </dl>
                     <h2>Tags</h2>
                     <table class="table table-condensed">
-                                                    <tr><td colspan="2"><em>None found</em></td></tr>
+                                                    <tr>
+                                <th>
+                                    since
+                                </th>
+                                <td>
+                                                                            
+                                                                    </td>
+                            </tr>
+                                                    <tr>
+                                <th>
+                                    version
+                                </th>
+                                <td>
+                                                                            
+                                                                    </td>
+                            </tr>
+                                                    <tr>
+                                <th>
+                                    author
+                                </th>
+                                <td>
+                                                                            <p>Alf Drollinger - alf@dyna.press</p>
+                                                                    </td>
+                            </tr>
+                                                    <tr>
+                                <th>
+                                    copyright
+                                </th>
+                                <td>
+                                                                            <p>2018 Dyna - <a href="https://dyna.press">https://dyna.press</a></p>
+                                                                    </td>
+                            </tr>
+                                                    <tr>
+                                <th>
+                                    license
+                                </th>
+                                <td>
+                                                                            <p>GNU GPL V2 - <a href="https://www.gnu.org/licenses/gpl">https://www.gnu.org/licenses/gpl</a></p>
+                                                                    </td>
+                            </tr>
                                             </table>
 
                 </aside>
@@ -196,14 +263,14 @@
             <article class="method">
                 <h3 class=" ">dyna_customize_register()</h3>
                 <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
-                <pre class="signature" style="margin-right: 54px;">dyna_customize_register(\WP_Customize_Manager  <span class="argument">$wp_customize</span>) </pre>
+                <pre class="signature" style="margin-right: 54px;">dyna_customize_register(\Dyna\WP_Customize_Manager  <span class="argument">$wp_customize</span>) </pre>
                 <p><em>Add postMessage support for site title and description for the Theme Customizer.</em></p>
                 
 
                                     <h4>Parameters</h4>
                     <table class="table table-condensed table-hover">
                                                     <tr>
-                                <td>\WP_Customize_Manager</td>
+                                <td>\Dyna\WP_Customize_Manager</td>
                                 <td>$wp_customize </td>
                                 <td><p>Theme Customizer object.</p></td>
                             </tr>
@@ -226,7 +293,7 @@
                             package
                         </th>
                         <td>
-                                                                                            <p>dyna</p>
+                                                                                            <p>Dyna</p>
                                                     </td>
                     </tr>
                             </table>
@@ -261,7 +328,7 @@
                             package
                         </th>
                         <td>
-                                                                                            <p>dyna</p>
+                                                                                            <p>Dyna</p>
                                                     </td>
                     </tr>
                             </table>
@@ -296,7 +363,7 @@
                             package
                         </th>
                         <td>
-                                                                                            <p>dyna</p>
+                                                                                            <p>Dyna</p>
                                                     </td>
                     </tr>
                             </table>
@@ -331,7 +398,7 @@
                             package
                         </th>
                         <td>
-                                                                                            <p>dyna</p>
+                                                                                            <p>Dyna</p>
                                                     </td>
                     </tr>
                             </table>
@@ -361,6 +428,7 @@
                                                         <h1><i class="icon-code"></i></h1>
                             <div>
                                 <ul>
+                                                                            <li><a href="../namespaces/Dyna.html">\Dyna</a></li>
                                                                     </ul>
                             </div>
                         </section>
@@ -388,7 +456,7 @@
                 <section class="span10 offset1">
                     <hr />
                     Documentation is powered by <a href="http://www.phpdoc.org/">phpDocumentor </a> and authored
-                    on August 18th, 2018 at 00:18.
+                    on August 18th, 2018 at 18:56.
                 </section>
             </section>
         </section>

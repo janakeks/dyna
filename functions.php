@@ -9,7 +9,7 @@
  * Dyna removes the Emoji Support in favor of page speed. If you want to get the styled
  * Emojis back, just comment this out as follows:
  *
- * // require_once(get_template_directory().'/functions/disable-emoji.php');
+   // require_once(get_template_directory().'/functions/disable-emoji.php');
  *
  * If you are really sure to not want this in your theme, you can also delete the line
  * including comment and delete the file /functions/disable-emoji.php afterwards.
@@ -28,22 +28,18 @@
  *
  */
 
-/*
- * Check if dyna_setup does not exist yet
- */
 if ( ! function_exists( 'dyna_setup' ) ) :
 	/**
-	 * @function Dyna Setup
-	 * @since 0.0.1
-	 * @version 0.0.8
-	 * @author Automattic Themeshaper Team
-	 * @author Alf Drollinger <alf@dyna.press>
 	 *
 	 * Sets up theme defaults and registers support for various WordPress features.
 	 *
 	 * Note that this function is hooked into the after_setup_theme hook, which
 	 * runs before the init hook. The init hook is too late for some features, such
 	 * as indicating support for post thumbnails.
+	 *
+	 * @since 0.0.1
+	 * @link https://developer.wordpress.org/themes/basics/theme-functions/#theme-setup
+	 *
 	 */
 	function dyna_setup() {
 		/*

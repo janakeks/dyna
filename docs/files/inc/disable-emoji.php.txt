@@ -1,5 +1,32 @@
-<?php 
-	
+<?php
+/**
+ * Disable Emojis
+ *
+ * Disable the WP-style emojis that came with WordPress 2.4 as they are
+ * a potential problem for GDPR and also not the best idea when it comes
+ * to optimizing page speed.
+ *
+ * @package Dyna
+ * @subpackage Functions
+ * @since 0.0.8
+ * @version 0.0.8
+ * @author Alf Drollinger - alf@dyna.press
+ * @copyright 2018 Dyna - https://dyna.press
+ * @license GNU GPL V2 - https://www.gnu.org/licenses/gpl
+ *
+ * @link https://kinsta.com/knowledgebase/disable-emojis-wordpress/
+ *
+ */
+
+namespace Dyna;
+
+/**
+ *
+ * Function disable emojis
+ *
+ * @since 0.0.8
+ *
+ */
 function disable_wp_emoji() {
 
   // all actions related to emojis
@@ -19,6 +46,16 @@ function disable_wp_emoji() {
 }
 add_action( 'init', 'disable_wp_emoji' );
 
+/**
+ *
+ * Function disable emojis tinymce
+ *
+ * @since 0.0.8
+ *
+ * @param array $plugins The plugins
+ * @return array
+ *
+ */
 function disable_emoji_tinymce( $plugins ) {
   if ( is_array( $plugins ) ) {
     return array_diff( $plugins, array( 'wpemoji' ) );

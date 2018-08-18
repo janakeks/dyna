@@ -1,11 +1,23 @@
 <?php
 /**
- * Template part for displaying page content in page.php
+ * Page content partial
  *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
+ * Template part for displaying page content in page.php.
  *
- * @package dyna
+ * @package Dyna
+ * @subpackage Partial
+ * @since 0.0.1
+ * @version 0.0.8
+ * @author Automattic Themeshaper Team
+ * @author Alf Drollinger - alf@dyna.press
+ * @copyright 2018 Dyna - https://dyna.press
+ * @license GNU GPL V2 - https://www.gnu.org/licenses/gpl
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
+ *
  */
+
+namespace Dyna;
 
 ?>
 

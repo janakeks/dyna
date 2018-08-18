@@ -3,9 +3,20 @@
  * WordPress.com-specific functions and definitions
  *
  * This file is centrally included from `wp-content/mu-plugins/wpcom-theme-compat.php`.
+ * *
+ * @package Dyna
+ * @subpackage Functions
+ * @since 0.0.1
+ * @version 0.0.8
+ * @author Alf Drollinger - alf@dyna.press
+ * @copyright 2018 Dyna - https://dyna.press
+ * @license GNU GPL V2 - https://www.gnu.org/licenses/gpl
  *
- * @package dyna
+ * @link https://github.com/Automattic/_s/blob/master/inc/wpcom.php
+ *
  */
+
+namespace Dyna;
 
 /**
  * Adds support for wp.com-specific theme functions.

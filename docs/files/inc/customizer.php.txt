@@ -1,9 +1,20 @@
 <?php
 /**
- * dyna Theme Customizer
+ * Dyna Theme Customizer
+ **
+ * @package Dyna
+ * @subpackage Functions
+ * @since 0.0.1
+ * @version 0.0.8
+ * @author Alf Drollinger - alf@dyna.press
+ * @copyright 2018 Dyna - https://dyna.press
+ * @license GNU GPL V2 - https://www.gnu.org/licenses/gpl
  *
- * @package dyna
+ * @link https://codex.wordpress.org/Theme_Customization_API
+ *
  */
+
+namespace Dyna;
 
 /**
  * Add postMessage support for site title and description for the Theme Customizer.
