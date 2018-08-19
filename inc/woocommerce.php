@@ -2,10 +2,21 @@
 /**
  * WooCommerce Compatibility File
  *
+ * This file contains all functions for WooCommerce as shipped with _s.
+ *
+ * @package Dyna
+ * @subpackage Functions
+ * @since 0.0.8
+ * @version 0.0.8
+ * @author Alf Drollinger - alf@dyna.press
+ * @copyright 2018 Dyna - https://dyna.press
+ * @license GNU GPL V2 - https://www.gnu.org/licenses/gpl
+ *
  * @link https://woocommerce.com/
  *
- * @package dyna
  */
+
+namespace Dyna;
 
 /**
  * WooCommerce setup function.
@@ -14,6 +25,8 @@
  * @link https://github.com/woocommerce/woocommerce/wiki/Enabling-product-gallery-features-(zoom,-swipe,-lightbox)-in-3.0.0
  *
  * @return void
+ * @since 0.0.5
+ *
  */
 function dyna_woocommerce_setup() {
 	add_theme_support( 'woocommerce' );
@@ -27,6 +40,8 @@ add_action( 'after_setup_theme', 'dyna_woocommerce_setup' );
  * WooCommerce specific scripts & stylesheets.
  *
  * @return void
+ * @since 0.0.5
+ *
  */
 function dyna_woocommerce_scripts() {
 	wp_enqueue_style( 'dyna-woocommerce-style', get_template_directory_uri() . '/woocommerce.css' );
@@ -62,6 +77,8 @@ add_filter( 'woocommerce_enqueue_styles', '__return_empty_array' );
  *
  * @param  array $classes CSS classes applied to the body tag.
  * @return array $classes modified to include 'woocommerce-active' class.
+ *
+ * @since 0.0.5
  */
 function dyna_woocommerce_active_body_class( $classes ) {
 	$classes[] = 'woocommerce-active';
@@ -74,6 +91,8 @@ add_filter( 'body_class', 'dyna_woocommerce_active_body_class' );
  * Products per page.
  *
  * @return integer number of products.
+ *
+ * @since 0.0.5
  */
 function dyna_woocommerce_products_per_page() {
 	return 12;
@@ -84,6 +103,8 @@ add_filter( 'loop_shop_per_page', 'dyna_woocommerce_products_per_page' );
  * Product gallery thumnbail columns.
  *
  * @return integer number of columns.
+ *
+ * @since 0.0.5
  */
 function dyna_woocommerce_thumbnail_columns() {
 	return 4;
@@ -94,6 +115,8 @@ add_filter( 'woocommerce_product_thumbnails_columns', 'dyna_woocommerce_thumbnai
  * Default loop columns on product archives.
  *
  * @return integer products per row.
+ *
+ * @since 0.0.5
  */
 function dyna_woocommerce_loop_columns() {
 	return 3;
@@ -105,6 +128,8 @@ add_filter( 'loop_shop_columns', 'dyna_woocommerce_loop_columns' );
  *
  * @param array $args related products args.
  * @return array $args related products args.
+ *
+ * @since 0.0.5
  */
 function dyna_woocommerce_related_products_args( $args ) {
 	$defaults = array(
@@ -123,6 +148,8 @@ if ( ! function_exists( 'dyna_woocommerce_product_columns_wrapper' ) ) {
 	 * Product columns wrapper.
 	 *
 	 * @return  void
+	 * @since 0.0.5
+     *
 	 */
 	function dyna_woocommerce_product_columns_wrapper() {
 		$columns = dyna_woocommerce_loop_columns();
@@ -136,6 +163,8 @@ if ( ! function_exists( 'dyna_woocommerce_product_columns_wrapper_close' ) ) {
 	 * Product columns wrapper close.
 	 *
 	 * @return  void
+	 * @since 0.0.5
+     *
 	 */
 	function dyna_woocommerce_product_columns_wrapper_close() {
 		echo '</div>';
@@ -156,6 +185,8 @@ if ( ! function_exists( 'dyna_woocommerce_wrapper_before' ) ) {
 	 * Wraps all WooCommerce content in wrappers which match the theme markup.
 	 *
 	 * @return void
+	 * @since 0.0.5
+     *
 	 */
 	function dyna_woocommerce_wrapper_before() {
 		?>
@@ -173,6 +204,8 @@ if ( ! function_exists( 'dyna_woocommerce_wrapper_after' ) ) {
 	 * Closes the wrapping divs.
 	 *
 	 * @return void
+	 * @since 0.0.5
+     *
 	 */
 	function dyna_woocommerce_wrapper_after() {
 			?>
@@ -203,6 +236,8 @@ if ( ! function_exists( 'dyna_woocommerce_cart_link_fragment' ) ) {
 	 *
 	 * @param array $fragments Fragments to refresh via AJAX.
 	 * @return array Fragments to refresh via AJAX.
+	 * @since 0.0.5
+     *
 	 */
 	function dyna_woocommerce_cart_link_fragment( $fragments ) {
 		ob_start();
@@ -221,6 +256,8 @@ if ( ! function_exists( 'dyna_woocommerce_cart_link' ) ) {
 	 * Displayed a link to the cart including the number of items present and the cart total.
 	 *
 	 * @return void
+	 * @since 0.0.5
+     *
 	 */
 	function dyna_woocommerce_cart_link() {
 		?>
@@ -243,6 +280,8 @@ if ( ! function_exists( 'dyna_woocommerce_header_cart' ) ) {
 	 * Display Header Cart.
 	 *
 	 * @return void
+	 * @since 0.0.5
+     *
 	 */
 	function dyna_woocommerce_header_cart() {
 		if ( is_cart() ) {

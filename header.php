@@ -1,14 +1,27 @@
 <?php
 /**
- * The header for our theme
+ * The header for the theme
  *
- * This is the template that displays all of the <head> section and everything up until <div id="content">
+ * This is the template that displays all of the <head> section and everything up until <div id="content">.
+ * It also calls the wp_head() that loads all head-information needed by WordPress or loaded plugins.
+ *
+ * @package Dyna
+ * @subpackage Header
+ * @since 0.0.1
+ * @version 0.0.8
+ * @author Automattic Themeshaper Team
+ * @author Alf Drollinger - alf@dyna.press
+ * @copyright 2018 Dyna - https://dyna.press
+ * @license GNU GPL V2 - https://www.gnu.org/licenses/gpl
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package dyna
  */
+
+namespace Dyna;
+
 ?>
+
 <!doctype html>
 <html <?php language_attributes(); ?>>
 <head>

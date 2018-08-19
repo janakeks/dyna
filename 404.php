@@ -1,11 +1,23 @@
 <?php
 /**
- * The template for displaying 404 pages (not found)
+ * The 404 error page
+ *
+ * The template for displaying 404 pages (not found).
+ *
+ * @package Dyna
+ * @subpackage Templates
+ * @since 0.0.1
+ * @version 0.0.8
+ * @author Automattic Themeshaper Team
+ * @author Alf Drollinger - alf@dyna.press
+ * @copyright 2018 Dyna - https://dyna.press
+ * @license GNU GPL V2 - https://www.gnu.org/licenses/gpl
  *
  * @link https://codex.wordpress.org/Creating_an_Error_404_Page
  *
- * @package dyna
  */
+
+namespace Dyna;
 
 get_header();
 ?>
@@ -42,10 +54,6 @@ get_header();
 					</div><!-- .widget -->
 
 					<?php
-					/* translators: %1$s: smiley */
-					$dyna_archive_content = '<p>' . sprintf( esc_html__( 'Try looking in the monthly archives. %1$s', '_s' ), convert_smilies( ':)' ) ) . '</p>';
-					the_widget( 'WP_Widget_Archives', 'dropdown=1', "after_title=</h2>$dyna_archive_content" );
-
 					the_widget( 'WP_Widget_Tag_Cloud' );
 					?>
 

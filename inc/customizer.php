@@ -1,14 +1,27 @@
 <?php
 /**
- * dyna Theme Customizer
+ * Dyna Theme Customizer
+ **
+ * @package Dyna
+ * @subpackage Functions
+ * @since 0.0.1
+ * @version 0.0.8
+ * @author Alf Drollinger - alf@dyna.press
+ * @copyright 2018 Dyna - https://dyna.press
+ * @license GNU GPL V2 - https://www.gnu.org/licenses/gpl
  *
- * @package dyna
+ * @link https://codex.wordpress.org/Theme_Customization_API
+ *
  */
+
+namespace Dyna;
 
 /**
  * Add postMessage support for site title and description for the Theme Customizer.
  *
  * @param WP_Customize_Manager $wp_customize Theme Customizer object.
+ * @since 0.0.5
+ *
  */
 function dyna_customize_register( $wp_customize ) {
 	$wp_customize->get_setting( 'blogname' )->transport         = 'postMessage';
@@ -32,6 +45,8 @@ add_action( 'customize_register', 'dyna_customize_register' );
  * Render the site title for the selective refresh partial.
  *
  * @return void
+ * @since 0.0.5
+ *
  */
 function dyna_customize_partial_blogname() {
 	bloginfo( 'name' );
@@ -41,6 +56,8 @@ function dyna_customize_partial_blogname() {
  * Render the site tagline for the selective refresh partial.
  *
  * @return void
+ * @since 0.0.5
+ *
  */
 function dyna_customize_partial_blogdescription() {
 	bloginfo( 'description' );
@@ -48,6 +65,8 @@ function dyna_customize_partial_blogdescription() {
 
 /**
  * Binds JS handlers to make Theme Customizer preview reload changes asynchronously.
+ * @since 0.0.5
+ *
  */
 function dyna_customize_preview_js() {
 	wp_enqueue_script( 'dyna-customizer', get_template_directory_uri() . '/js/customizer.js', array( 'customize-preview' ), '20151215', true );

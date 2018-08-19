@@ -1,20 +1,32 @@
 <?php
 /**
- * Sample implementation of the Custom Header feature
+ * Custom Header feature
  *
  * You can add an optional custom header image to header.php like so ...
  *
-	<?php the_header_image_tag(); ?>
+ * <?php the_header_image_tag(); ?>
+ *
+ * @package Dyna
+ * @subpackage Functions
+ * @since 0.0.1
+ * @version 0.0.8
+ * @author Automattic Themeshaper Team
+ * @author Alf Drollinger - alf@dyna.press
+ * @copyright 2018 Dyna - https://dyna.press
+ * @license GNU GPL V2 - https://www.gnu.org/licenses/gpl
  *
  * @link https://developer.wordpress.org/themes/functionality/custom-headers/
  *
- * @package dyna
  */
+
+namespace Dyna;
 
 /**
  * Set up the WordPress core custom header feature.
  *
  * @uses dyna_header_style()
+ * @since 0.0.5
+ *
  */
 function dyna_custom_header_setup() {
 	add_theme_support( 'custom-header', apply_filters( 'dyna_custom_header_args', array(
@@ -33,6 +45,8 @@ if ( ! function_exists( 'dyna_header_style' ) ) :
 	 * Styles the header image and text displayed on the blog.
 	 *
 	 * @see dyna_custom_header_setup().
+     *
+	 * @since 0.0.5
 	 */
 	function dyna_header_style() {
 		$header_text_color = get_header_textcolor();

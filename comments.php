@@ -5,10 +5,20 @@
  * This is the template that displays the area of the page that contains both the current comments
  * and the comment form.
  *
+ * @package Dyna
+ * @subpackage Templates
+ * @since 0.0.1
+ * @version 0.0.8
+ * @author Automattic Themeshaper Team
+ * @author Alf Drollinger - alf@dyna.press
+ * @copyright 2018 Dyna - https://dyna.press
+ * @license GNU GPL V2 - https://www.gnu.org/licenses/gpl
+ *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package dyna
  */
+
+namespace Dyna;
 
 /*
  * If the current post is protected by a password and

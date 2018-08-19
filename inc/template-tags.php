@@ -4,12 +4,29 @@
  *
  * Eventually, some of the functionality here could be replaced by core features.
  *
- * @package dyna
+ * @package Dyna
+ * @subpackage Functions
+ * @since 0.0.1
+ * @version 0.0.8
+ * @author Automattic Themeshaper Team
+ * @author Alf Drollinger - alf@dyna.press
+ * @copyright 2018 Dyna - https://dyna.press
+ * @license GNU GPL V2 - https://www.gnu.org/licenses/gpl
+ *
+ * @link https://codex.wordpress.org/Functions_File_Explained
+ * @link https://developer.wordpress.org/themes/basics/theme-functions/
+ *
  */
+
+namespace Dyna;
 
 if ( ! function_exists( 'dyna_posted_on' ) ) :
 	/**
+	 * Dyna Posted On
 	 * Prints HTML with meta information for the current post-date/time.
+	 *
+	 * @since 0.0.1
+     *
 	 */
 	function dyna_posted_on() {
 		$time_string = '<time class="entry-date published updated" datetime="%1$s">%2$s</time>';
@@ -37,7 +54,11 @@ endif;
 
 if ( ! function_exists( 'dyna_posted_by' ) ) :
 	/**
+	 * Dyna Posted By
 	 * Prints HTML with meta information for the current author.
+	 *
+	 * @since 0.0.1
+	 *
 	 */
 	function dyna_posted_by() {
 		$byline = sprintf(
@@ -53,9 +74,13 @@ endif;
 
 if ( ! function_exists( 'dyna_entry_footer' ) ) :
 	/**
+	 * Dyna Posted On
 	 * Prints HTML with meta information for the categories, tags and comments.
+	 *
+	 * @since 0.0.1
+	 *
 	 */
-	function dyna_entry_footer() {
+    function dyna_entry_footer() {
 		// Hide category and tag text for pages.
 		if ( 'post' === get_post_type() ) {
 			/* translators: used between list items, there is a space after the comma */
@@ -113,10 +138,13 @@ endif;
 
 if ( ! function_exists( 'dyna_post_thumbnail' ) ) :
 	/**
+	 * Dyna Post Thumbnail
 	 * Displays an optional post thumbnail.
-	 *
 	 * Wraps the post thumbnail in an anchor element on index views, or a div
 	 * element when on single views.
+	 *
+	 * @since 0.0.1
+	 *
 	 */
 	function dyna_post_thumbnail() {
 		if ( post_password_required() || is_attachment() || ! has_post_thumbnail() ) {
